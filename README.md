@@ -6,3 +6,4 @@ based upon the following:
 
 * Buildroot
 * Buildroot-submodule
+* PREMPT_RT Linux kernel patch
