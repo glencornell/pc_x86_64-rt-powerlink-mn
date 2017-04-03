@@ -1,0 +1,10 @@
+[Unit]
+Description=Ethernet POWERLINK user-space pcap daemon
+After=network.target auditd.service
+
+[Service]
+ExecStart=/usr/oplkd-pcap/oplkmnd-pcap
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

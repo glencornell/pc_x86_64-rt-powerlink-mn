@@ -1,0 +1,9 @@
+software =
+{
+  images: (
+  {
+    filename = "disk.img";
+    device = "/dev/sda";
+  }
+  );
+}
