@@ -1,0 +1,11 @@
+[Unit]
+Description=Software update daemon
+After=network.target auditd.service
+
+[Service]
+WorkingDirectory=/var/www/swupdate
+ExecStart=/usr/bin/swupdate --webserver -document_root /var/www/swupdate
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+[Match]
+Name=eno1
+
+[Network]
+Description=Static IP address assignment for eno1
+Address=192.168.100.1/24
